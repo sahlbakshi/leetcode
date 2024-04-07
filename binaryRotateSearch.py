@@ -14,18 +14,14 @@ class Solution(object):
                 break
         
         l = 0
-        r = pivot
-        while l <= r:
-            mid = (l + r) // 2
-            if nums[mid] == target:
-                return mid
-            elif target > nums[mid]:
-                l = mid+1
-            elif target < nums[mid]:
-                r = mid-1
+        r = 0
+        if target >= nums[0] and target <= nums[pivot]:
+            l = 0
+            r = pivot
+        else:
+            l = pivot+1 
+            r = len(nums)-1
 
-        l = pivot+1
-        r = len(nums)-1
         while l <= r:
             mid = (l + r) // 2
             if nums[mid] == target:

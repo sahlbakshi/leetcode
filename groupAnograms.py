@@ -12,9 +12,9 @@ class Solution(object):
 
         hashmap = {}
         for elem in strs:
-            temp = ''.join(sorted(elem)) # sortes sorts but makes array so we have to join them
+            temp = ''.join(sorted(elem)) # sorted sorts but makes array so we have to join them
             if temp in hashmap:
-                hashmap.get(temp).append(elem)
+                hashmap.get(temp).append(elem) # hashmap[temp].append(elem) also works
             else:
                 hashmap[temp] = [elem]
 
