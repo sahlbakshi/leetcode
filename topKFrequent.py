@@ -39,3 +39,27 @@ class Solution(object):
         
         return ans
     
+
+
+class Solution(object):
+    def topKFrequent(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: List[int]
+        """
+        
+        arr = [[] for i in range(len(nums))]
+        hmap = Counter(nums)
+
+        for i, j in hmap.items():
+            arr[j-1].append(i)
+        
+        res = []
+        for i in reversed(arr):
+            for num in i:
+                if k > 0:
+                    res.append(num)
+                    k -=1
+        return res
+        
