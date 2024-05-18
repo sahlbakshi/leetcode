@@ -24,6 +24,7 @@
 1. [Longest Repeating Character Replacement](characterReplacement.py) <br>
 2. [Longest Substring Without Repeating Characters](lengthOfLongestSubstring.py) <br>
 3. [Best Time to Buy And Sell Stock](maxProfit.py) <br>
+4. [Permutation in String](checkInclusion.py) <br>
 
 ### Stack
 1. [Valid Parentheses](validParentheses.py) <br>
@@ -31,6 +32,7 @@
 ### Binary Search
 1. [Search In Rotated Sorted Array](binaryRotateSearch.py) <br>
 2. [Find Minimum In Rotated Sorted Array](findMinBinary.py) <br>
+3. [Koko Eating Bananas](minEatingSpeed.py) <br>
 
 ### Linked List
 1. [Linked List Cycle](hasCycle.py) <br>
@@ -45,6 +47,8 @@
 2. [Kth Smallest Element In a Bst](kthSmallest.py) <br>
 3. [Maximum Depth of Binary Tree](maxDepth.py) <br>
 4. [Validate Binary Search Tree](validBSTSubtree.py) <br>
+5. [Binary Tree Level Order Traversal](levelOrder.py) <br>
+6. [Same Tree](sameTree.py) <br>
 
 ### Backtracking and Recursion
 1. [Generate Parentheses](generateParenthesis.py) * <br>
